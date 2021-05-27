@@ -3,7 +3,7 @@
 Example of using an inverse reinforcement learning algorithm such as [GAIL](https://arxiv.org/abs/1606.03476) to learn to imitate a [PPO](https://arxiv.org/abs/1707.06347) policy to play [Cartpole](https://gym.openai.com/envs/CartPole-v0/). In this scenario we consider the PPO policy to be the expert and GAIL has to learn to imitate it only by observing expert's trajectories. Note that both policies succed to master the game by achieving an average score of at least 199 points out of 200 over 100 episodes.
 
 ## Usage
-Before start using this repository, install the required libraries in the `requirements.txt` file. You can also refere to the file `notebook.ipynb` to check the result on notebook.
+Before start using this repository, install the required libraries in the `requirements.txt` file. You can also refere to the file `notebook.ipynb` to check the results on notebook.
 ```
   pip install -r requirements.txt"
 ```
