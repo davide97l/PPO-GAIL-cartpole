@@ -31,6 +31,7 @@ def get_args():
     parser.add_argument('--r1-reg-coeff', type=float, default=1, metavar='γ', help='R1 gradient regularisation coefficient')
     parser.add_argument('--weights_path', type=str, default='models/GAIL/cart_pole.pth')
     parser.add_argument('--evaluation_episodes', type=int, default=100)
+    parser.add_argument('--expert_trajectories_path', type=str, default='PPO/trajectories/cart_pole.pickle')
 
     parser.add_argument('--train', action='store_true', default=False)
     parser.add_argument('--load', action='store_true', default=False)

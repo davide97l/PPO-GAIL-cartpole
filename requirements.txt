@@ -1,4 +1,4 @@
 torch
 gym
 numpy
-seaborn
+tensorboard

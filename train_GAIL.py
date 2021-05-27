@@ -12,7 +12,7 @@ from training_utils import TransitionDataset, adversarial_imitation_update, comp
 def train(args, agent, env):
 
     # Load expert trajectories
-    with open('PPO/trajectories/cart_pole.pickle', 'rb') as handle:
+    with open(args.expert_trajectories_path, 'rb') as handle:
         expert_trajectories = pickle.load(handle)
     expert_trajectories = TransitionDataset(expert_trajectories)
 
